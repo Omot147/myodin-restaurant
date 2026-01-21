@@ -1,0 +1,41 @@
+
+
+body {
+  background-color: rgb(105, 88, 88);
+}
+.wrapper{
+  padding: 1rem;
+  background: rgb(199, 192, 192);
+  color:white;
+  border-radius: 5px;
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+  height:2rem;
+  margin: 0 auto;
+}
+#btn1,
+#btn2,
+#btn3,
+#btn4{
+  display:flex;
+  align-items: center;
+  padding:1rem;
+  margin-bottom: 0.25rem;
+  border-bottom: 0.5rem;
+  border-color: rgb(190, 185, 185);
+  border-radius: 13px;
+}
+.text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto 10px;
+}
+.text h1{
+  color: yellowgreen;
+  font: 400;
+  font-size: 3rem;
+  
+}
